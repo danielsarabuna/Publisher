@@ -1,0 +1,10 @@
+/Users/daniel/Projects/C#/Publisher/Publisher/obj/Debug/netstandard2.1/Publisher.csproj.AssemblyReference.cache
+/Users/daniel/Projects/C#/Publisher/Publisher/obj/Debug/netstandard2.1/Publisher.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daniel/Projects/C#/Publisher/Publisher/obj/Debug/netstandard2.1/Publisher.AssemblyInfoInputs.cache
+/Users/daniel/Projects/C#/Publisher/Publisher/obj/Debug/netstandard2.1/Publisher.AssemblyInfo.cs
+/Users/daniel/Projects/C#/Publisher/Publisher/obj/Debug/netstandard2.1/Publisher.csproj.CoreCompileInputs.cache
+/Users/daniel/Projects/C#/Publisher/Publisher/bin/Debug/netstandard2.1/Publisher.deps.json
+/Users/daniel/Projects/C#/Publisher/Publisher/bin/Debug/netstandard2.1/Publisher.dll
+/Users/daniel/Projects/C#/Publisher/Publisher/bin/Debug/netstandard2.1/Publisher.pdb
+/Users/daniel/Projects/C#/Publisher/Publisher/obj/Debug/netstandard2.1/Publisher.dll
+/Users/daniel/Projects/C#/Publisher/Publisher/obj/Debug/netstandard2.1/Publisher.pdb

@@ -1,0 +1,26 @@
+﻿<Properties>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Publisher/Publisher.cs">
+    <Files>
+      <File FileName="Publisher/Publisher.cs" Line="1" Column="14" />
+      <File FileName="Publisher/Launcher.cs" Line="4" Column="30" />
+      <File FileName="Publisher/Payload.cs" Line="4" Column="28" />
+      <File FileName="Publisher/IPublisher.cs" Line="4" Column="18" />
+      <File FileName="Publisher/IListener.cs" Line="6" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Publisher" expanded="True">
+            <Node name="Publisher" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
