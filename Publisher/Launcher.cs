@@ -19,7 +19,7 @@ namespace Publisher
             _subscribers.Clear();
         }
 
-        internal void Publish<T>(object source, T message) where T : struct
+        internal void Publish<T>(object source, T message)
         {
             if (source == null) return;
             if (!_subscribers.ContainsKey(typeof(T))) return;
@@ -34,7 +34,7 @@ namespace Publisher
             }
         }
 
-        internal void Subscribe<T>(Action<Payload<T>> subscription) where T : struct
+        internal void Subscribe<T>(Action<Payload<T>> subscription)
         {
             var delegates = _subscribers.ContainsKey(typeof(T)) ? _subscribers[typeof(T)] : new List<Delegate>();
             if (!delegates.Contains(subscription)) delegates.Add(subscription);
@@ -42,7 +42,7 @@ namespace Publisher
             _subscribers[typeof(T)] = delegates;
         }
 
-        internal void Unsubscribe<T>(Action<Payload<T>> subscription) where T : struct
+        internal void Unsubscribe<T>(Action<Payload<T>> subscription)
         {
             if (!_subscribers.ContainsKey(typeof(T))) return;
             var delegates = _subscribers[typeof(T)];
