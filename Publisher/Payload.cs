@@ -2,11 +2,11 @@
 
 namespace Publisher
 {
-    public class Payload<T>
+    public struct Payload<T> where T : struct
     {
-        public object Who { get; private set; }
-        public T What { get; private set; }
-        public DateTime When { get; private set; }
+        public object Who { get; }
+        public T What { get; }
+        public DateTime When { get; }
 
         public Payload(T payload, object source)
         {
